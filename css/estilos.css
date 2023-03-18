@@ -39,6 +39,7 @@ nav a:hover {
   list-style: none;
 }
 
+
 .listaNavegacion {
   display: inline-block;
   margin: 0 10px;
@@ -62,7 +63,7 @@ nav a:hover {
 
 .imagenfondo {
   height: 500px;
-  width: 500px;
+  width: 100%; /* Cambié el ancho fijo por un ancho relativo para que el diseño sea responsive */
   background-image: url(../assets/img/portada\ sobre\ mi.jpg);
   background-repeat: no-repeat;
   background-size: cover;
