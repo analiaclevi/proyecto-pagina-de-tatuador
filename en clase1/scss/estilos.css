@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap');
-
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap");
 * {
   margin: 5px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Libre Baskerville', sans-serif;
+  font-family: "Libre Baskerville", sans-serif;
 }
 
 .body {
@@ -21,11 +21,12 @@
 }
 
 .borroso {
-  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
 }
 
 .colorNav {
-  background-color: #42443bc7;
+  background-color: rgba(66, 68, 59, 0.7803921569);
 }
 
 nav a:hover {
@@ -63,7 +64,7 @@ nav a:hover {
   text-align: center;
   display: block;
   padding: 10px;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .collapse.navbar-collapse .nav-link:last-child {
@@ -106,7 +107,8 @@ nav a:hover {
 .carousel-inner img {
   width: auto;
   height: 80vh;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .card {
@@ -128,7 +130,8 @@ nav a:hover {
 .card-img-top {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .row {
@@ -181,4 +184,4 @@ nav a:hover {
   left: 0;
   height: auto;
   width: 100%;
-}
+}/*# sourceMappingURL=estilos.css.map */

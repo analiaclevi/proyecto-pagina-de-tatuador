@@ -39,37 +39,6 @@ nav a:hover {
   list-style: none;
 }
 
-.navbar-toggler {
-  border: none;
-  background: transparent;
-}
-
-.navbar-toggler-icon {
-  background-color: #fff;
-}
-
-.collapse.navbar-collapse {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  right: 0;
-  background-color: #444;
-  z-index: 1;
-}
-
-.collapse.navbar-collapse .nav-link {
-  color: #fff;
-  font-size: 18px;
-  text-align: center;
-  display: block;
-  padding: 10px;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
-}
-
-.collapse.navbar-collapse .nav-link:last-child {
-  border-bottom: none;
-}
-
 .listaNavegacion {
   display: inline-block;
   margin: 0 10px;
@@ -86,14 +55,16 @@ nav a:hover {
   margin-left: 4rem;
   margin-right: 4rem;
 }
-
+.colordesubtitulo {
+  color: #5a9263;
+}
 .alinear {
   display: inline-block;
 }
 
 .imagenfondo {
   height: 500px;
-  width: 100%; /* Cambié el ancho fijo por un ancho relativo para que el diseño sea responsive */
+  width: 500px;
   background-image: url(../assets/img/portada\ sobre\ mi.jpg);
   background-repeat: no-repeat;
   background-size: cover;
