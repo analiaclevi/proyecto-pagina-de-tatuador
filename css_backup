@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap');
+
+* {
+  margin: 5px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Libre Baskerville', sans-serif;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+   font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.fondo {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.642)), url(../assets/img/portadapaginamarcos.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.borroso {
+  backdrop-filter: blur(3px);
+}
+.navbar {
+  padding: 1rem 1rem;}
+
+.colorNav {
+  background-color: #42443bc7;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+
+.listaNavegacion {
+  display: inline-block;
+  margin: 0 10px;
+  list-style: none;
+}
+
+.linkNav {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.textocentrado {
+  
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.alinear {
+  display: inline-block;
+}
+
+.imagenfondo {
+
+  background-image: url(../assets/img/portada\ sobre\ mi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.btn {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+
+}
+
+.carousel-inner {
+  height: 100%; 
+}
+
+.carousel-inner img {
+  width: auto;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.card {
+  border: 2px solid #444;
+  background-color: #565a58;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text {
+  color: #c2cfc8;
+}
+
+.card-title {
+  color: #fffbfb;
+  font-size: small;
+  font-style: oblique;
+  text-align: center;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.imagen {
+  position: relative;
+  display: inline-block;
+}
+
+
+.background-color-page {
+  background-color: #444;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.video-container iframe {
+  max-width: 100%;
+  max-height: 100%;
+}
+.container
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;}
+
+  .mapa {
+    position: relative;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .mapa iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+.piePagina {
+  bottom: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+}
+.fa-instagram, .fa-whatsapp, .fa-facebook {
+  font-size: 2em;
+}
+/* vista para tablet del index html*/
+    @media only screen and (max-width: 768px) {
+    .navbar-nav {
+      flex-direction: column;
+      margin-top: 15px;
+    }
+
+    .navbar-nav li {
+      margin: 0 auto;
+      width: 100%;
+      text-align: center;
+    }
+
+    .nav-link {
+      padding: 0.5rem 1rem;
+      border-bottom: 1px solid #fff;
+    }
+
+    .nav-link:last-child {
+      border-bottom: none;
+    }
+
+    
+    #carouselExampleIndicators .carousel-indicators {
+      bottom: -30px;
+    }
+
+    #carouselExampleIndicators .carousel-indicators button {
+      width: 10px;
+      height: 10px;
+      margin: 0 5px;
+      border-radius: 50%;
+    }
+
+    #carouselExampleIndicators .carousel-indicators button.active {
+      width: 12px;
+      height: 12px;
+      background-color: #fff;
+    }
+
+    #carouselExampleIndicators .carousel-inner .carousel-item {
+      height: 300px;
+    }
+  
+    
+  }
+  /* vista para celulares de html*/
+  @media screen and (max-width: 576px) {
+    .container {
+      max-width: 100%;
+      padding: 0 10px;
+    }
+  
+    .header {
+      text-align: center;
+    }
+  
+    .nav {
+      display: none;
+    }
+    .navbar-nav {
+      font-size: 0.8rem;
+    }
+    .nav-toggle {
+      display: block;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      padding: 5px 10px;
+      background-color: #333;
+      color: #fff;
+      cursor: pointer;
+    }
+  
+    .nav-toggle.active {
+      background-color: #fff;
+      color: #333;
+    }
+  
+    .nav-list {
+      display: none;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+    }
+  
+    .nav-list.active {
+      display: block;
+    }
+  
+    .nav-item {
+      display: block;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  
+    .nav-link {
+      display: block;
+      padding: 0.5rem 0;
+      color: #fff;
+      text-decoration: none;
+    }
+  
+    .main {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    h1 {
+    font-size: 1.5rem;
+    }
+    p {
+    font-size: 0.8rem;
+    line-height: 1.2;
+    }
+    .sidebar {
+      display: none;
+    }
+  
+    .footer {
+      text-align: center;
+    }
+  }
+/* Estilos para tablet y celular de pagina contacto */
+@media only screen and (max-width: 768px) {
+  .navbar-nav {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+  .nav-link {
+    padding: 5px;
+  }
+  .navbar-toggler {
+    margin: 5px;
+  }
+  .container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .textocentrado {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+  }
+  .form-label {
+    font-size: 1.2rem;
+  }
+  .form-control {
+    font-size: 1.2rem;
+  }
+    .mapa iframe {
+      height: 300px;
+    }
+  }
