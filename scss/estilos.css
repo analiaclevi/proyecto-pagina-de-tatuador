@@ -90,17 +90,6 @@ nav a:hover {
 .nav-links li {
   list-style: none;
 }
-.nav-links a {
-  color: #fff;
-  text-decoration: none;
-  letter-spacing: 1px;
-  font-weight: bold;
-  font-size: 1.1rem;
-  padding: 1rem;
-}
-.nav-links a:hover {
-  color: #c2a71f;
-}
 
 .burger {
   display: none;
@@ -242,7 +231,6 @@ nav a:hover {
   .burger {
     display: block;
   }
-  /*correccion*/
   .navbar-nav {
     flex-direction: column;
     margin-top: 15px;

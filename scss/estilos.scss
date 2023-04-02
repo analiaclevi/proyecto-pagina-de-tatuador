@@ -1,11 +1,4 @@
-$color-primario: #444;
-$color-secundario: rgb(255, 255, 255);
-$color-terciario: #333;
-$color-navegacion: #42443bc7;
-$fuente-general: 'Libre Baskerville', sans-serif;
-$justify-texto: center;
-$justify-contenido: center; 
-$alineacion-items: center;
+@import "variables.scss";
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap');
 
@@ -98,18 +91,6 @@ nav a:hover {
     list-style: none;
   }
   
-  a {
-    color: #fff;
-    text-decoration: none;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 1.1rem;
-    padding: 1rem;
-    
-    &:hover {
-      color: #c2a71f;
-    }
-  }
 }
 
 .burger {
@@ -252,7 +233,6 @@ nav a:hover {
       .burger {
         display: block;
       }
-    /*correccion*/
 
 
     .navbar-nav {
