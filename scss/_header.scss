@@ -1,0 +1,46 @@
+.borroso {
+    backdrop-filter: blur(3px);
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #2a2b30;
+      height: 80px;
+      padding: 0 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+     
+    }
+  
+  }
+  .colorNav {
+    background-color:$color-navegacion;
+  }
+  
+  .navbar {
+    padding: 1rem 1rem;
+  .navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    .burger {
+      display: none;
+      cursor: pointer;
+      z-index: 999;
+    }
+    .li {
+      list-style: none;
+      .nav-link {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+    }
+    
+  }
+  }
+}
+  
+  

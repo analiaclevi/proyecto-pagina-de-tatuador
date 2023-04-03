@@ -1,0 +1,178 @@
+/* vista para tablet del index html*/
+@media only screen and (max-width: 768px){
+    .nav-links {
+      display: none;
+      text-align: center;
+      width: 100%;
+      margin-top: 1rem;
+
+      li {
+        display: block;
+      }
+    }
+    
+    .burger {
+      display: block;
+    }
+
+
+  .navbar-nav {
+    flex-direction: column;
+    margin-top: 15px;
+  }
+
+  .navbar-nav li {
+    margin: 0 auto;
+    width: 100%;
+    text-align:$justify-texto;
+  }
+
+  .nav-link {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid $color-secundario;
+  }
+
+  .nav-link:last-child {
+    border-bottom: none;
+  }
+
+  
+  #carouselExampleIndicators .carousel-indicators {
+    bottom: -30px;
+  }
+
+  #carouselExampleIndicators .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+  }
+
+  #carouselExampleIndicators .carousel-indicators button.active {
+    width: 12px;
+    height: 12px;
+    background-color:$color-secundario;
+
+  }
+
+  #carouselExampleIndicators .carousel-inner .carousel-item {
+    height: 300px;
+  }
+
+  
+}
+/* vista para celulares de html*/
+@media screen and (max-width: 576px) {
+    .container {
+      max-width: 100%;
+      padding: 0 10px;
+    }
+  
+    .header {
+      text-align:$justify-texto;
+    }
+  
+    .nav {
+      display: none;
+    }
+    .navbar-nav {
+      font-size: 0.8rem;
+    }
+    .nav-toggle {
+      display: block;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      padding: 5px 10px;
+      background-color:$color-terciario;
+      color:$color-secundario;
+      cursor: pointer;
+    }
+  
+    .nav-toggle.active {
+      background-color:$color-secundario;
+      color:$color-terciario;
+    }
+  
+    .nav-list {
+      display: none;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      padding: 10px;
+      background-color:$color-terciario;
+      color:$color-secundario;
+    }
+  
+    .nav-list.active {
+      display: block;
+    }
+  
+    .nav-item {
+      display: block;
+      margin-bottom: 10px;
+      text-align:$justify-texto;
+    }
+  
+    .nav-link {
+      display: block;
+      padding: 0.5rem 0;
+      color:$color-secundario;
+      text-decoration: none;
+    }
+  
+    .main {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    h1 {
+    font-size: 1.5rem;
+    }
+    p {
+    font-size: 0.8rem;
+    line-height: 1.2;
+    }
+    .sidebar {
+      display: none;
+    }
+  
+    .footer {
+      text-align:$justify-texto;
+    }
+  }
+/* Estilos para tablet y celular de pagina contacto */
+@media only screen and (max-width: 768px) {
+  .navbar-nav {
+    margin: 0 auto;
+    display: block;
+    text-align:$justify-texto;
+  }
+  .nav-link {
+    padding: 5px;
+  }
+  .navbar-toggler {
+    margin: 5px;
+  }
+  .container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .textocentrado {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+  }
+  .form-label {
+    font-size: 1.2rem;
+  }
+  .form-control {
+    font-size: 1.2rem;
+  }
+    .mapa iframe {
+      height: 300px;
+    }
+  }

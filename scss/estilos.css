@@ -3,17 +3,6 @@
   margin: 5px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: "Libre Baskerville", sans-serif;
-}
-
-.body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 .fondo {
@@ -24,112 +13,8 @@
   background-repeat: no-repeat;
 }
 
-.borroso {
-  -webkit-backdrop-filter: blur(3px);
-          backdrop-filter: blur(3px);
-}
-
-.navbar {
-  padding: 1rem 1rem;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #2a2b30;
-  height: 80px;
-  padding: 0 1rem;
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
-
-/* agregado .nav*/
-.colorNav {
-  background-color: rgba(66, 68, 59, 0.7803921569);
-}
-
-nav a:hover {
-  color: rgb(255, 255, 255);
-}
-
-.navbar-nav {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-}
-
-.listaNavegacion {
-  display: inline-block;
-  margin: 0 10px;
-  list-style: none;
-}
-
-.linkNav {
-  text-decoration: none;
-  font-size: 15px;
-}
-
-.logo {
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: bold;
-  font-size: 1.5rem;
-  text-decoration: none;
-}
-
-.nav-links {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 50%;
-}
-.nav-links li {
-  list-style: none;
-}
-
-.burger {
-  display: none;
-  cursor: pointer;
-  z-index: 999;
-}
-
-.textocentrado {
-  font-size: 1.5rem;
-  line-height: 1.2;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-.alinear {
-  display: inline-block;
-}
-
-.imagenfondo {
-  background-image: url(../assets/img/portada\ sobre\ mi.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.btn {
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  margin-top: 1rem;
-  margin-right: 0.5rem;
-}
-
-.carousel-inner {
-  height: 100%;
-}
-
-.carousel-inner img {
-  width: auto;
-  height: 80vh;
-  -o-object-fit: cover;
-     object-fit: cover;
+.background-color-page {
+  background-color: #444;
 }
 
 .card {
@@ -168,8 +53,94 @@ nav a:hover {
   display: inline-block;
 }
 
-.background-color-page {
-  background-color: #444;
+.btn {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+}
+
+.textocentrado {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.alinear {
+  display: inline-block;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Libre Baskerville", sans-serif;
+}
+
+.borroso {
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+}
+.borroso .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2a2b30;
+  height: 80px;
+  padding: 0 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.colorNav {
+  background-color: rgba(66, 68, 59, 0.7803921569);
+}
+
+.navbar {
+  padding: 1rem 1rem;
+}
+.navbar .navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.navbar .navbar-nav .burger {
+  display: none;
+  cursor: pointer;
+  z-index: 999;
+}
+.navbar .navbar-nav .li {
+  list-style: none;
+}
+.navbar .navbar-nav .li .nav-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.imagenfondo {
+  background-image: url(../assets/img/portada\ sobre\ mi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-inner img {
+  width: auto;
+  height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .video-container {
@@ -212,8 +183,7 @@ nav a:hover {
   height: auto;
   width: 100%;
 }
-
-.fa-instagram, .fa-whatsapp, .fa-facebook {
+.piePagina .fa-instagram, .piePagina .fa-whatsapp, .piePagina .fa-facebook {
   font-size: 2em;
 }
 
