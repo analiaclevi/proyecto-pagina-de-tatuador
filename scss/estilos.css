@@ -6,7 +6,7 @@
 }
 
 .fondo {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.642)), url(../assets/img/portadapaginamarcos.jpg);
+  background: url(../assets/img/portadapaginamarcos.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;

@@ -1,22 +1,23 @@
 .fondo {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.642)), url(../assets/img/portadapaginamarcos.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+  background:
+    map-get($propiedades-fondo, linear-gradient),
+    map-get($propiedades-fondo, imagen);
+  background-size: map-get($propiedades-fondo, size);
+  background-attachment: map-get($propiedades-fondo, attachment);
+  background-position: map-get($propiedades-fondo, position);
+  background-repeat: map-get($propiedades-fondo, repeat);
+}
 
   .background-color-page {
     background-color: $color-primario;
   }
   .card {
-    border: 2px solid $color-primario;
-    background-color: #565a58;
-    display: flex;
-    justify-content: $justify-contenido;
-    align-items:$alineacion-items;
+    border: map-get($propiedades-card, border);
+    background-color: map-get($propiedades-card, background-color);
+    display: map-get($propiedades-card, display);
+    justify-content: map-get($propiedades-card, justify-content);
+    align-items: map-get($propiedades-card, align-items);
   }
-  
   .card-text {
     color: #c2cfc8;
   }

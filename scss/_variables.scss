@@ -6,3 +6,21 @@ $fuente-general: 'Libre Baskerville', sans-serif;
 $justify-texto: center;
 $justify-contenido: center; 
 $alineacion-items: center;
+
+
+$propiedades-fondo: (
+  gradient: linear-gradient(to right, rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.642)),
+  imagen: url(../assets/img/portadapaginamarcos.jpg),
+  size: cover,
+  attachment: fixed,
+  position: center,
+  repeat: no-repeat
+);
+
+$propiedades-card: (
+  border: 2px solid $color-primario,
+  background-color: #565a58,
+  display: flex,
+  justify-content: $justify-contenido,
+  align-items: $alineacion-items
+);
