@@ -86,7 +86,8 @@
   -webkit-backdrop-filter: blur(3px);
           backdrop-filter: blur(3px);
 }
-.borroso .nav {
+
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;

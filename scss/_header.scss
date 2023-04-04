@@ -1,19 +1,16 @@
 .borroso {
-    backdrop-filter: blur(3px);
-    .nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #2a2b30;
-      height: 80px;
-      padding: 0 1rem;
-      position: sticky;
-      top: 0;
-      z-index: 10;
-     
-    }
-  
-  }
+  backdrop-filter: blur(3px);
+}
+.nav {
+  @include  flexible(flex,  space-between,  center);
+  background-color: #2a2b30;
+  height: 80px;
+  padding: 0 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+ 
+}
   .colorNav {
     background-color:$color-navegacion;
   }

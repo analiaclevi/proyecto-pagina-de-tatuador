@@ -1,0 +1,5 @@
+@mixin flexible($dis,$just,$align) {
+    display: $dis;
+    justify-content: $just;
+    align-items: $align;
+}
