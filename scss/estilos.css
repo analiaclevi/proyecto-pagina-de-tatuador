@@ -188,55 +188,7 @@
   font-size: 2em;
 }
 
-/* vista para tablet del index html*/
-@media only screen and (max-width: 768px) {
-  .nav-links {
-    display: none;
-    text-align: center;
-    width: 100%;
-    margin-top: 1rem;
-  }
-  .nav-links li {
-    display: block;
-  }
-  .burger {
-    display: block;
-  }
-  .navbar-nav {
-    flex-direction: column;
-    margin-top: 15px;
-  }
-  .navbar-nav li {
-    margin: 0 auto;
-    width: 100%;
-    text-align: center;
-  }
-  .nav-link {
-    padding: 0.5rem 1rem;
-    border-bottom: 1px solid rgb(255, 255, 255);
-  }
-  .nav-link:last-child {
-    border-bottom: none;
-  }
-  #carouselExampleIndicators .carousel-indicators {
-    bottom: -30px;
-  }
-  #carouselExampleIndicators .carousel-indicators button {
-    width: 10px;
-    height: 10px;
-    margin: 0 5px;
-    border-radius: 50%;
-  }
-  #carouselExampleIndicators .carousel-indicators button.active {
-    width: 12px;
-    height: 12px;
-    background-color: rgb(255, 255, 255);
-  }
-  #carouselExampleIndicators .carousel-inner .carousel-item {
-    height: 300px;
-  }
-}
-/* vista para celulares de html*/
+/* vista para tablet y celular del index html*/
 @media screen and (max-width: 576px) {
   .container {
     max-width: 100%;
@@ -250,6 +202,17 @@
   }
   .navbar-nav {
     font-size: 0.8rem;
+  }
+  .navbar-nav li {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .navbar-nav li .nav-link {
+    display: block;
+    padding: 0.5rem 0;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
   }
   .nav-toggle {
     display: block;
@@ -275,19 +238,16 @@
     background-color: #333;
     color: rgb(255, 255, 255);
   }
-  .nav-list.active {
-    display: block;
-  }
-  .nav-item {
+  .nav-list .nav-item {
     display: block;
     margin-bottom: 10px;
     text-align: center;
   }
-  .nav-link {
-    display: block;
+  .nav-list .nav-item .nav-link {
     padding: 0.5rem 0;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+  }
+  .nav-list.active {
+    display: block;
   }
   .main {
     margin-top: 20px;
@@ -307,6 +267,19 @@
     text-align: center;
   }
 }
+@media screen and (max-width: 576px) and (max-width: 375px) {
+  .nav-item {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .nav-item .nav-link {
+    display: block;
+    padding: 0.5rem 0;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+}
 /* Estilos para tablet y celular de pagina contacto */
 @media only screen and (max-width: 768px) {
   .navbar-nav {
@@ -314,30 +287,30 @@
     display: block;
     text-align: center;
   }
-  .nav-link {
+  .navbar-nav .nav-link {
     padding: 5px;
   }
-  .navbar-toggler {
+  .navbar-nav .navbar-toggler {
     margin: 5px;
   }
-  .container {
+  .navbar-nav .container {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  .textocentrado {
+  .navbar-nav .textocentrado {
     font-size: 1.5rem;
   }
-  h3 {
+  .navbar-nav h3 {
     font-size: 1.5rem;
     margin-top: 30px;
   }
-  .form-label {
+  .navbar-nav .form-label {
     font-size: 1.2rem;
   }
-  .form-control {
+  .navbar-nav .form-control {
     font-size: 1.2rem;
   }
-  .mapa iframe {
+  .navbar-nav .mapa iframe {
     height: 300px;
   }
 }/*# sourceMappingURL=estilos.css.map */
