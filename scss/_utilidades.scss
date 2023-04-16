@@ -41,8 +41,20 @@ display: inline-block;
 .card-body {
   background-color: #444444e8;
   text-align: center;
-  justify-content: space-between;
   font-size: medium;
+  width: calc(100% - 4 * var(--nav-padding));
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+.card-img-top{
+  margin: 0 auto;
 }
 .title {
   font-style: oblique;
@@ -67,6 +79,10 @@ display: inline-block;
     height: 100%;
     object-fit: cover;
   }
+  .fototarjeta{
+    max-width: 100%;
+  max-height: 30vh;
+}
 
   .row {
     margin-top: 30px;

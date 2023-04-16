@@ -46,8 +46,21 @@
 .card-body {
   background-color: rgba(68, 68, 68, 0.9098039216);
   text-align: center;
-  justify-content: space-between;
   font-size: medium;
+  width: calc(100% - 4 * var(--nav-padding));
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card-img-top {
+  margin: 0 auto;
 }
 
 .title {
@@ -76,6 +89,11 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.fototarjeta {
+  max-width: 100%;
+  max-height: 30vh;
 }
 
 .row {
@@ -136,7 +154,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #2a2b30;
-  height: 50px;
+  height: 30px;
   padding: 0 1rem;
   position: sticky;
   top: 0;
@@ -149,6 +167,7 @@
 
 .navbar {
   padding: 1rem 1rem;
+  height: 100px;
 }
 .navbar .navbar-nav {
   width: 100%;
@@ -208,8 +227,9 @@
 .piePagina {
   bottom: 0;
   left: 0;
-  height: auto;
+  height: 100px;
   width: 100%;
+  margin: 0 auto;
 }
 .piePagina .fa-instagram, .piePagina .fa-whatsapp, .piePagina .fa-facebook {
   font-size: 2em;
@@ -218,13 +238,14 @@
 .social-icons {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
   animation: move-icons 3s linear infinite;
 }
 .social-icons .icon {
   margin: 0 20px;
   opacity: 0;
-  transform: translateY(50px);
+  transform: translateY(20px);
   animation: move-up 0.5s ease-in-out forwards;
 }
 .social-icons .icon:nth-child(1) {
@@ -255,13 +276,13 @@
     transform: translateY(0);
   }
   25% {
-    transform: translateY(-15px);
+    transform: translateY(-10px);
   }
   50% {
     transform: translateY(0);
   }
   75% {
-    transform: translateY(15px);
+    transform: translateY(10px);
   }
   100% {
     transform: translateY(0);

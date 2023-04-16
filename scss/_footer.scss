@@ -1,8 +1,9 @@
 .piePagina {
     bottom: 0;
     left: 0;
-    height: auto;
+    height: 100px;
     width: 100%;
+    margin: 0 auto;
     .fa-instagram, .fa-whatsapp, .fa-facebook {
       font-size: 2em;
     }
@@ -10,12 +11,13 @@
   .social-icons {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items:center;
+    margin-bottom: 10px;
   
     .icon {
       margin: 0 20px;
       opacity: 0;
-      transform: translateY(50px);
+      transform: translateY(20px);
       animation: move-up 0.5s ease-in-out forwards;
     }
   
@@ -53,13 +55,13 @@
       transform: translateY(0);
     }
     25% {
-      transform: translateY(-15px);
+      transform: translateY(-10px);
     }
     50% {
       transform: translateY(0);
     }
     75% {
-      transform: translateY(15px);
+      transform: translateY(10px);
     }
     100% {
       transform: translateY(0);
