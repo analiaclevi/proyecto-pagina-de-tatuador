@@ -3,8 +3,24 @@
     justify-content:$justify-contenido;
     align-items: $alineacion-items;
     height: 100vh;
-     font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     font-family:$fuente-general; }
-    
+.imagenfondo {
+
+    background-image: url(../assets/img/portada\ sobre\ mi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .borroso {
+        backdrop-filter: blur(3px);
+    }
+}
+.carousel-inner {
+        height: 100%; 
+        .carousel-inner img {
+            width: auto;
+            height: 80vh;
+            object-fit: cover;
+}
+        }

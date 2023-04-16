@@ -18,6 +18,25 @@
     justify-content: map-get($propiedades-card, justify-content);
     align-items: map-get($propiedades-card, align-items);
   }
+
+.btn {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+
+}
+.textocentrado {
+
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  text-align:$justify-texto;
+}
+
+.alinear {
+display: inline-block;
+}
   .card-text {
     color: #c2cfc8;
   }
@@ -44,22 +63,3 @@
     position: relative;
     display: inline-block;
   }
-  .btn {
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
-    margin-top: 1rem;
-    margin-right: 0.5rem;
-  
-  }
-  .textocentrado {
-  
-    font-size: 1.5rem;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-    text-align:$justify-texto;
-}
-
-.alinear {
-  display: inline-block;
-}
-  
