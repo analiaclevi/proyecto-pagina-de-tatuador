@@ -43,8 +43,25 @@
   display: inline-block;
 }
 
+.card-body {
+  background-color: rgba(68, 68, 68, 0.9098039216);
+  text-align: center;
+  justify-content: space-between;
+  font-size: medium;
+}
+
+.title {
+  font-style: oblique;
+  color: #9fbba8;
+}
+
+.card-subtitle {
+  font-size: medium;
+  color: #dce7be;
+}
+
 .card-text {
-  color: #c2cfc8;
+  color: #dee4e0;
 }
 
 .card-title {
@@ -92,14 +109,26 @@
           backdrop-filter: blur(3px);
 }
 
-.carousel-inner {
+.carousel-item {
+  height: 80vh;
+}
+
+.carousel-item img {
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  text-align: center;
+}
+
+.carousel-inner {
+  height: 60vh;
 }
 .carousel-inner .carousel-inner img {
   width: auto;
   height: 80vh;
   -o-object-fit: cover;
      object-fit: cover;
+  text-align: center;
 }
 
 .nav {
@@ -107,7 +136,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #2a2b30;
-  height: 80px;
+  height: 50px;
   padding: 0 1rem;
   position: sticky;
   top: 0;

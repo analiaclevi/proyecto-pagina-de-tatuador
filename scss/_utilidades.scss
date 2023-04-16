@@ -37,8 +37,22 @@
 .alinear {
 display: inline-block;
 }
+
+.card-body {
+  background-color: #444444e8;
+  text-align: center;
+  justify-content: space-between;
+  font-size: medium;
+}
+.title {
+  font-style: oblique;
+  color: #9fbba8;
+}
+.card-subtitle {
+  font-size: medium;
+  color: #dce7be;}
   .card-text {
-    color: #c2cfc8;
+    color: #dee4e0;
   }
   
   .card-title {
