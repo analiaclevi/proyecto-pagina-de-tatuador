@@ -18,14 +18,6 @@
     justify-content: map-get($propiedades-card, justify-content);
     align-items: map-get($propiedades-card, align-items);
   }
-
-.btn {
-  font-size: 1rem;
-  padding: 0.5rem 1rem;
-  margin-top: 1rem;
-  margin-right: 0.5rem;
-
-}
 .textocentrado {
 
   font-size: 1.5rem;
@@ -53,13 +45,14 @@ display: inline-block;
   padding: 20px;
   border-radius: 10px;
 }
-.card-img-top{
-  margin: 0 auto;
-}
 .title {
   font-style: oblique;
   color: #9fbba8;
+  font-size: 20px;
+  padding: 20px;
+
 }
+
 .card-subtitle {
   font-size: medium;
   color: #dce7be;}
@@ -81,7 +74,7 @@ display: inline-block;
   }
   .fototarjeta{
     max-width: 100%;
-  max-height: 30vh;
+  max-height: 50vh;
 }
 
   .row {
