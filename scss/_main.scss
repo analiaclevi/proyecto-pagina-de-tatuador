@@ -1,4 +1,9 @@
+.contenedor-main{
+text-align: center;
+padding-bottom: 25vh;
+margin-top: 25vh;
 
+}  
 .video-container {
   display: flex;
   justify-content:$justify-contenido;
@@ -16,12 +21,22 @@
   background-color: #616457c7;
   border-radius: 10px;
 }
+.box-main
+{
+  background-color: #616457c7;
+  font-size: x-large;
+  border-radius: 20px;
+  padding: 15px;
+  display: inline-block;
+}
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
+  min-height: calc(100vh - 155px);
+  position: relative;
 }
   
   .btn-enviar {
