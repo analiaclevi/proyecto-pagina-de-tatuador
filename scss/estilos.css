@@ -151,6 +151,18 @@ h1 {
   text-align: center;
 }
 
+.colordefondo {
+  background-color: #444;
+}
+
+.image {
+  width: 50%;
+}
+
+.container {
+  display: flex;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
