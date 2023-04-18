@@ -12,7 +12,13 @@
   .nav {
     display: none;
   }
-
+  .collapse.navbar-collapse {
+    z-index: 9999;
+  }
+  .navbar {
+    background-color: #2a2b30;
+    padding: 10px;
+  }
   .navbar-nav {
     font-size: 0.8rem;
 
@@ -81,7 +87,7 @@
   }
 
   p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 1.2;
   }
 
@@ -92,6 +98,7 @@
   .footer {
     text-align: $justify-texto;
   }
+  
 
   @media screen and (max-width: 375px) {
     .nav-item {
