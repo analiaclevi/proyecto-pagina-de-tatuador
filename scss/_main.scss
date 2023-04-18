@@ -16,13 +16,13 @@
   background-color: #616457c7;
   border-radius: 10px;
 }
-.container
-{
+.container {
   display: flex;
   flex-direction: column;
-  align-items: $alineacion-items;
-  justify-content: $justify-contenido;
-  height: auto;}
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
   
   .btn-enviar {
     background-color: #66ff73; 
