@@ -204,6 +204,13 @@ h1 {
   max-height: 100%;
 }
 
+.box {
+  padding: 20px;
+  margin: 20px;
+  background-color: rgba(97, 100, 87, 0.7803921569);
+  border-radius: 10px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -212,10 +219,31 @@ h1 {
   height: auto;
 }
 
+.btn-enviar {
+  background-color: #66ff73;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-limpiar {
+  background-color: #e47869;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .mapa {
   position: relative;
-  width: 100%;
-  height: 400px;
+  width: 60%;
+  height: 0;
+  padding-bottom: 50%;
+  margin: 10px auto;
+  max-width: 400px;
 }
 
 .mapa iframe {
@@ -223,7 +251,10 @@ h1 {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  max-width: 100%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .piePagina {
