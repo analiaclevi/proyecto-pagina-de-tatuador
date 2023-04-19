@@ -8,7 +8,7 @@
   .header {
     text-align: $justify-texto;
   }
-
+ 
   .nav {
     display: none;
   }
@@ -16,11 +16,16 @@
     z-index: 9999;
   }
   .navbar {
-    background-color: #2a2b30;
+    background-color: #42443bc7;
     padding: 10px;
   }
   .navbar-nav {
     font-size: 0.8rem;
+    background-color:#42443bc7;
+
+    .navbar-nav li a {
+      color:#42443bc7;
+    }
 
     li {
       margin: 0;
@@ -35,6 +40,7 @@
       }
     }
   }
+  
 
   .nav-toggle {
     display: block;

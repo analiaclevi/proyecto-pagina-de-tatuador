@@ -369,11 +369,15 @@ body.pagina-404 p {
     z-index: 9999;
   }
   .navbar {
-    background-color: #2a2b30;
+    background-color: rgba(66, 68, 59, 0.7803921569);
     padding: 10px;
   }
   .navbar-nav {
     font-size: 0.8rem;
+    background-color: rgba(66, 68, 59, 0.7803921569);
+  }
+  .navbar-nav .navbar-nav li a {
+    color: rgba(66, 68, 59, 0.7803921569);
   }
   .navbar-nav li {
     margin: 0;
